@@ -1,10 +1,11 @@
 import React from 'react'
-<script src="https://kit.fontawesome.com/2b9bd03c7e.js" crossorigin="anonymous"></script>
+//import Items from './Items'
 
-const CardWidjet = () => {
+
+const CardWidjet = ({items}) => {
     return (
-        <div>
-            Aqui va el Carritos
+        <div className="d-flex">
+            <i className="bi bi-cart2 text-light">{items}</i>
         </div>
     )
 }
